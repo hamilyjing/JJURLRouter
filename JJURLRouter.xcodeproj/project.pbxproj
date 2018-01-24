@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80895156A29F63B5371B68FE /* Pods_JJURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3FCBFDF734805391AE05E3 /* Pods_JJURLRouter.framework */; };
+		ABA45E0420188AD800350408 /* JJURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA45DFA20188AD800350408 /* JJURLRouter.framework */; };
+		ABA45E0920188AD800350408 /* JJURLRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E0820188AD800350408 /* JJURLRouterTests.m */; };
+		ABA45E0B20188AD800350408 /* JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45DFD20188AD800350408 /* JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E3C20188B9800350408 /* JJURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E1520188B9800350408 /* JJURLHandler.m */; };
+		ABA45E3D20188B9800350408 /* JJURLHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1620188B9800350408 /* JJURLHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E3E20188B9800350408 /* JJURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1820188B9800350408 /* JJURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E3F20188B9800350408 /* JJURLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E1920188B9800350408 /* JJURLContext.m */; };
+		ABA45E4020188B9800350408 /* NSBundle+JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1B20188B9800350408 /* NSBundle+JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4120188B9800350408 /* NSError+JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1C20188B9800350408 /* NSError+JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4220188B9800350408 /* UIViewController+JJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E1D20188B9800350408 /* UIViewController+JJURLRouter.m */; };
+		ABA45E4320188B9800350408 /* NSBundle+JJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E1E20188B9800350408 /* NSBundle+JJURLRouter.m */; };
+		ABA45E4420188B9800350408 /* UIViewController+JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1F20188B9800350408 /* UIViewController+JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4520188B9800350408 /* NSError+JJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2020188B9800350408 /* NSError+JJURLRouter.m */; };
+		ABA45E4620188B9800350408 /* JJURLError.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2220188B9800350408 /* JJURLError.m */; };
+		ABA45E4720188B9800350408 /* JJURLError.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2320188B9800350408 /* JJURLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4820188B9800350408 /* JJURLResult.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2520188B9800350408 /* JJURLResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4920188B9800350408 /* JJURLModule.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2620188B9800350408 /* JJURLModule.m */; };
+		ABA45E4A20188B9800350408 /* JJURLInput.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2720188B9800350408 /* JJURLInput.m */; };
+		ABA45E4B20188B9800350408 /* JJURLOpenOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2820188B9800350408 /* JJURLOpenOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4C20188B9800350408 /* JJURLResult.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2920188B9800350408 /* JJURLResult.m */; };
+		ABA45E4D20188B9800350408 /* JJURLModule.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2A20188B9800350408 /* JJURLModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4E20188B9800350408 /* JJURLModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2B20188B9800350408 /* JJURLModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E4F20188B9800350408 /* JJURLInput.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2C20188B9800350408 /* JJURLInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5020188B9800350408 /* JJURLOpenOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E2D20188B9800350408 /* JJURLOpenOptions.m */; };
+		ABA45E5120188B9800350408 /* JJURLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E2F20188B9800350408 /* JJURLLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5220188B9800350408 /* JJURLSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3120188B9800350408 /* JJURLSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5320188B9800350408 /* JJURLInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E3320188B9800350408 /* JJURLInterceptor.m */; };
+		ABA45E5420188B9800350408 /* JJURLConfigurableInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3420188B9800350408 /* JJURLConfigurableInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5520188B9800350408 /* JJURLInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3520188B9800350408 /* JJURLInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5620188B9800350408 /* JJURLConfigurableInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E3620188B9800350408 /* JJURLConfigurableInterceptor.m */; };
+		ABA45E5720188B9800350408 /* JJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E3820188B9800350408 /* JJURLRouter.m */; };
+		ABA45E5820188B9800350408 /* JJURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3920188B9800350408 /* JJURLManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5920188B9800350408 /* JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3A20188B9800350408 /* JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E5A20188B9800350408 /* JJURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E3B20188B9800350408 /* JJURLManager.m */; };
+		BD875813438A59468CB9BB48 /* Pods_JJURLRouterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DC24BF0A09A5241BDE6AA9 /* Pods_JJURLRouterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA45E0520188AD800350408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA45DF120188AD800350408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA45DF920188AD800350408;
+			remoteInfo = JJURLRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		430A0649191FF62691A74A19 /* Pods-JJURLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouter/Pods-JJURLRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		7DAA0E5A8C9D5BCFF1996ED6 /* Pods-JJURLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouter/Pods-JJURLRouter.release.xcconfig"; sourceTree = "<group>"; };
+		ABA45DFA20188AD800350408 /* JJURLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA45DFD20188AD800350408 /* JJURLRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJURLRouter.h; sourceTree = "<group>"; };
+		ABA45DFE20188AD800350408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA45E0320188AD800350408 /* JJURLRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJURLRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA45E0820188AD800350408 /* JJURLRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJURLRouterTests.m; sourceTree = "<group>"; };
+		ABA45E0A20188AD800350408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA45E1520188B9800350408 /* JJURLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLHandler.m; sourceTree = "<group>"; };
+		ABA45E1620188B9800350408 /* JJURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLHandler.h; sourceTree = "<group>"; };
+		ABA45E1820188B9800350408 /* JJURLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLContext.h; sourceTree = "<group>"; };
+		ABA45E1920188B9800350408 /* JJURLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLContext.m; sourceTree = "<group>"; };
+		ABA45E1B20188B9800350408 /* NSBundle+JJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JJURLRouter.h"; sourceTree = "<group>"; };
+		ABA45E1C20188B9800350408 /* NSError+JJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+JJURLRouter.h"; sourceTree = "<group>"; };
+		ABA45E1D20188B9800350408 /* UIViewController+JJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJURLRouter.m"; sourceTree = "<group>"; };
+		ABA45E1E20188B9800350408 /* NSBundle+JJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JJURLRouter.m"; sourceTree = "<group>"; };
+		ABA45E1F20188B9800350408 /* UIViewController+JJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJURLRouter.h"; sourceTree = "<group>"; };
+		ABA45E2020188B9800350408 /* NSError+JJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+JJURLRouter.m"; sourceTree = "<group>"; };
+		ABA45E2220188B9800350408 /* JJURLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLError.m; sourceTree = "<group>"; };
+		ABA45E2320188B9800350408 /* JJURLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLError.h; sourceTree = "<group>"; };
+		ABA45E2520188B9800350408 /* JJURLResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLResult.h; sourceTree = "<group>"; };
+		ABA45E2620188B9800350408 /* JJURLModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLModule.m; sourceTree = "<group>"; };
+		ABA45E2720188B9800350408 /* JJURLInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLInput.m; sourceTree = "<group>"; };
+		ABA45E2820188B9800350408 /* JJURLOpenOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLOpenOptions.h; sourceTree = "<group>"; };
+		ABA45E2920188B9800350408 /* JJURLResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLResult.m; sourceTree = "<group>"; };
+		ABA45E2A20188B9800350408 /* JJURLModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLModule.h; sourceTree = "<group>"; };
+		ABA45E2B20188B9800350408 /* JJURLModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLModuleProtocol.h; sourceTree = "<group>"; };
+		ABA45E2C20188B9800350408 /* JJURLInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLInput.h; sourceTree = "<group>"; };
+		ABA45E2D20188B9800350408 /* JJURLOpenOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLOpenOptions.m; sourceTree = "<group>"; };
+		ABA45E2F20188B9800350408 /* JJURLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLLog.h; sourceTree = "<group>"; };
+		ABA45E3120188B9800350408 /* JJURLSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLSupport.h; sourceTree = "<group>"; };
+		ABA45E3320188B9800350408 /* JJURLInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLInterceptor.m; sourceTree = "<group>"; };
+		ABA45E3420188B9800350408 /* JJURLConfigurableInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLConfigurableInterceptor.h; sourceTree = "<group>"; };
+		ABA45E3520188B9800350408 /* JJURLInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLInterceptor.h; sourceTree = "<group>"; };
+		ABA45E3620188B9800350408 /* JJURLConfigurableInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLConfigurableInterceptor.m; sourceTree = "<group>"; };
+		ABA45E3820188B9800350408 /* JJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLRouter.m; sourceTree = "<group>"; };
+		ABA45E3920188B9800350408 /* JJURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLManager.h; sourceTree = "<group>"; };
+		ABA45E3A20188B9800350408 /* JJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLRouter.h; sourceTree = "<group>"; };
+		ABA45E3B20188B9800350408 /* JJURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLManager.m; sourceTree = "<group>"; };
+		EBD9E856798FC90C9C247082 /* Pods-JJURLRouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5DC24BF0A09A5241BDE6AA9 /* Pods_JJURLRouterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJURLRouterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD84DB5012B7A248F15D7A7E /* Pods-JJURLRouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3FCBFDF734805391AE05E3 /* Pods_JJURLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA45DF620188AD800350408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80895156A29F63B5371B68FE /* Pods_JJURLRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA45E0020188AD800350408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA45E0420188AD800350408 /* JJURLRouter.framework in Frameworks */,
+				BD875813438A59468CB9BB48 /* Pods_JJURLRouterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35298C7B223100D83C40BF29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3FCBFDF734805391AE05E3 /* Pods_JJURLRouter.framework */,
+				F5DC24BF0A09A5241BDE6AA9 /* Pods_JJURLRouterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ECD5442E50A2C36641F305F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430A0649191FF62691A74A19 /* Pods-JJURLRouter.debug.xcconfig */,
+				7DAA0E5A8C9D5BCFF1996ED6 /* Pods-JJURLRouter.release.xcconfig */,
+				FD84DB5012B7A248F15D7A7E /* Pods-JJURLRouterTests.debug.xcconfig */,
+				EBD9E856798FC90C9C247082 /* Pods-JJURLRouterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABA45DF020188AD800350408 = {
+			isa = PBXGroup;
+			children = (
+				ABA45DFC20188AD800350408 /* JJURLRouter */,
+				ABA45E0720188AD800350408 /* JJURLRouterTests */,
+				ABA45DFB20188AD800350408 /* Products */,
+				3ECD5442E50A2C36641F305F /* Pods */,
+				35298C7B223100D83C40BF29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA45DFB20188AD800350408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45DFA20188AD800350408 /* JJURLRouter.framework */,
+				ABA45E0320188AD800350408 /* JJURLRouterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA45DFC20188AD800350408 /* JJURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E1A20188B9800350408 /* Category */,
+				ABA45E1720188B9800350408 /* Context */,
+				ABA45E2120188B9800350408 /* Error */,
+				ABA45E1420188B9800350408 /* Handler */,
+				ABA45DFE20188AD800350408 /* Info.plist */,
+				ABA45E3220188B9800350408 /* Interceptor */,
+				ABA45DFD20188AD800350408 /* JJURLRouter.h */,
+				ABA45E2E20188B9800350408 /* Log */,
+				ABA45E3720188B9800350408 /* Manager */,
+				ABA45E2420188B9800350408 /* Module */,
+				ABA45E3020188B9800350408 /* ViewController */,
+			);
+			path = JJURLRouter;
+			sourceTree = "<group>";
+		};
+		ABA45E0720188AD800350408 /* JJURLRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E0820188AD800350408 /* JJURLRouterTests.m */,
+				ABA45E0A20188AD800350408 /* Info.plist */,
+			);
+			path = JJURLRouterTests;
+			sourceTree = "<group>";
+		};
+		ABA45E1420188B9800350408 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E1520188B9800350408 /* JJURLHandler.m */,
+				ABA45E1620188B9800350408 /* JJURLHandler.h */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		ABA45E1720188B9800350408 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E1820188B9800350408 /* JJURLContext.h */,
+				ABA45E1920188B9800350408 /* JJURLContext.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		ABA45E1A20188B9800350408 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E1B20188B9800350408 /* NSBundle+JJURLRouter.h */,
+				ABA45E1C20188B9800350408 /* NSError+JJURLRouter.h */,
+				ABA45E1D20188B9800350408 /* UIViewController+JJURLRouter.m */,
+				ABA45E1E20188B9800350408 /* NSBundle+JJURLRouter.m */,
+				ABA45E1F20188B9800350408 /* UIViewController+JJURLRouter.h */,
+				ABA45E2020188B9800350408 /* NSError+JJURLRouter.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ABA45E2120188B9800350408 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E2220188B9800350408 /* JJURLError.m */,
+				ABA45E2320188B9800350408 /* JJURLError.h */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		ABA45E2420188B9800350408 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E2520188B9800350408 /* JJURLResult.h */,
+				ABA45E2620188B9800350408 /* JJURLModule.m */,
+				ABA45E2720188B9800350408 /* JJURLInput.m */,
+				ABA45E2820188B9800350408 /* JJURLOpenOptions.h */,
+				ABA45E2920188B9800350408 /* JJURLResult.m */,
+				ABA45E2A20188B9800350408 /* JJURLModule.h */,
+				ABA45E2B20188B9800350408 /* JJURLModuleProtocol.h */,
+				ABA45E2C20188B9800350408 /* JJURLInput.h */,
+				ABA45E2D20188B9800350408 /* JJURLOpenOptions.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		ABA45E2E20188B9800350408 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E2F20188B9800350408 /* JJURLLog.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		ABA45E3020188B9800350408 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E3120188B9800350408 /* JJURLSupport.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ABA45E3220188B9800350408 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E3320188B9800350408 /* JJURLInterceptor.m */,
+				ABA45E3420188B9800350408 /* JJURLConfigurableInterceptor.h */,
+				ABA45E3520188B9800350408 /* JJURLInterceptor.h */,
+				ABA45E3620188B9800350408 /* JJURLConfigurableInterceptor.m */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		ABA45E3720188B9800350408 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ABA45E3820188B9800350408 /* JJURLRouter.m */,
+				ABA45E3920188B9800350408 /* JJURLManager.h */,
+				ABA45E3A20188B9800350408 /* JJURLRouter.h */,
+				ABA45E3B20188B9800350408 /* JJURLManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABA45DF720188AD800350408 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA45E4D20188B9800350408 /* JJURLModule.h in Headers */,
+				ABA45E0B20188AD800350408 /* JJURLRouter.h in Headers */,
+				ABA45E4820188B9800350408 /* JJURLResult.h in Headers */,
+				ABA45E5920188B9800350408 /* JJURLRouter.h in Headers */,
+				ABA45E4E20188B9800350408 /* JJURLModuleProtocol.h in Headers */,
+				ABA45E3D20188B9800350408 /* JJURLHandler.h in Headers */,
+				ABA45E4F20188B9800350408 /* JJURLInput.h in Headers */,
+				ABA45E5420188B9800350408 /* JJURLConfigurableInterceptor.h in Headers */,
+				ABA45E5220188B9800350408 /* JJURLSupport.h in Headers */,
+				ABA45E4B20188B9800350408 /* JJURLOpenOptions.h in Headers */,
+				ABA45E5820188B9800350408 /* JJURLManager.h in Headers */,
+				ABA45E4020188B9800350408 /* NSBundle+JJURLRouter.h in Headers */,
+				ABA45E4120188B9800350408 /* NSError+JJURLRouter.h in Headers */,
+				ABA45E4720188B9800350408 /* JJURLError.h in Headers */,
+				ABA45E4420188B9800350408 /* UIViewController+JJURLRouter.h in Headers */,
+				ABA45E5120188B9800350408 /* JJURLLog.h in Headers */,
+				ABA45E5520188B9800350408 /* JJURLInterceptor.h in Headers */,
+				ABA45E3E20188B9800350408 /* JJURLContext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABA45DF920188AD800350408 /* JJURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA45E0E20188AD800350408 /* Build configuration list for PBXNativeTarget "JJURLRouter" */;
+			buildPhases = (
+				D51E896D399DC1A871D2B4AC /* [CP] Check Pods Manifest.lock */,
+				ABA45DF520188AD800350408 /* Sources */,
+				ABA45DF620188AD800350408 /* Frameworks */,
+				ABA45DF720188AD800350408 /* Headers */,
+				ABA45DF820188AD800350408 /* Resources */,
+				EC8D99AD8DA880425E09B0B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJURLRouter;
+			productName = JJURLRouter;
+			productReference = ABA45DFA20188AD800350408 /* JJURLRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABA45E0220188AD800350408 /* JJURLRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA45E1120188AD800350408 /* Build configuration list for PBXNativeTarget "JJURLRouterTests" */;
+			buildPhases = (
+				0DB6B921011EFB718A9A6E91 /* [CP] Check Pods Manifest.lock */,
+				ABA45DFF20188AD800350408 /* Sources */,
+				ABA45E0020188AD800350408 /* Frameworks */,
+				ABA45E0120188AD800350408 /* Resources */,
+				B7C019A76611FEAD06806B86 /* [CP] Embed Pods Frameworks */,
+				5B2DD114437C7839B5FE36B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA45E0620188AD800350408 /* PBXTargetDependency */,
+			);
+			name = JJURLRouterTests;
+			productName = JJURLRouterTests;
+			productReference = ABA45E0320188AD800350408 /* JJURLRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA45DF120188AD800350408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "宫健(金融壹账通客户端研发团队)";
+				TargetAttributes = {
+					ABA45DF920188AD800350408 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ABA45E0220188AD800350408 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABA45DF420188AD800350408 /* Build configuration list for PBXProject "JJURLRouter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA45DF020188AD800350408;
+			productRefGroup = ABA45DFB20188AD800350408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA45DF920188AD800350408 /* JJURLRouter */,
+				ABA45E0220188AD800350408 /* JJURLRouterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA45DF820188AD800350408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA45E0120188AD800350408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB6B921011EFB718A9A6E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJURLRouterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2DD114437C7839B5FE36B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C019A76611FEAD06806B86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51E896D399DC1A871D2B4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJURLRouter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8D99AD8DA880425E09B0B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJURLRouter/Pods-JJURLRouter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA45DF520188AD800350408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA45E3C20188B9800350408 /* JJURLHandler.m in Sources */,
+				ABA45E3F20188B9800350408 /* JJURLContext.m in Sources */,
+				ABA45E4620188B9800350408 /* JJURLError.m in Sources */,
+				ABA45E4920188B9800350408 /* JJURLModule.m in Sources */,
+				ABA45E5620188B9800350408 /* JJURLConfigurableInterceptor.m in Sources */,
+				ABA45E5A20188B9800350408 /* JJURLManager.m in Sources */,
+				ABA45E5020188B9800350408 /* JJURLOpenOptions.m in Sources */,
+				ABA45E5320188B9800350408 /* JJURLInterceptor.m in Sources */,
+				ABA45E4220188B9800350408 /* UIViewController+JJURLRouter.m in Sources */,
+				ABA45E5720188B9800350408 /* JJURLRouter.m in Sources */,
+				ABA45E4520188B9800350408 /* NSError+JJURLRouter.m in Sources */,
+				ABA45E4C20188B9800350408 /* JJURLResult.m in Sources */,
+				ABA45E4A20188B9800350408 /* JJURLInput.m in Sources */,
+				ABA45E4320188B9800350408 /* NSBundle+JJURLRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA45DFF20188AD800350408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA45E0920188AD800350408 /* JJURLRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA45E0620188AD800350408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA45DF920188AD800350408 /* JJURLRouter */;
+			targetProxy = ABA45E0520188AD800350408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABA45E0C20188AD800350408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABA45E0D20188AD800350408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABA45E0F20188AD800350408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430A0649191FF62691A74A19 /* Pods-JJURLRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JJURLRouter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.JJURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA45E1020188AD800350408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA0E5A8C9D5BCFF1996ED6 /* Pods-JJURLRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JJURLRouter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.JJURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA45E1220188AD800350408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD84DB5012B7A248F15D7A7E /* Pods-JJURLRouterTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJURLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.JJURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA45E1320188AD800350408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD9E856798FC90C9C247082 /* Pods-JJURLRouterTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJURLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.JJURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA45DF420188AD800350408 /* Build configuration list for PBXProject "JJURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA45E0C20188AD800350408 /* Debug */,
+				ABA45E0D20188AD800350408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA45E0E20188AD800350408 /* Build configuration list for PBXNativeTarget "JJURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA45E0F20188AD800350408 /* Debug */,
+				ABA45E1020188AD800350408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA45E1120188AD800350408 /* Build configuration list for PBXNativeTarget "JJURLRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA45E1220188AD800350408 /* Debug */,
+				ABA45E1320188AD800350408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA45DF120188AD800350408 /* Project object */;
+}
