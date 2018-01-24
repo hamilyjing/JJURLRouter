@@ -204,7 +204,7 @@ static int __JJURLHandlerKey;
             return;
         }
         
-        UINavigationController *nav = [sourceViewController isKindOfClass:[UINavigationController class]] ? sourceViewController : sourceViewController.navigationController;
+        UINavigationController *nav = [sourceViewController isKindOfClass:[UINavigationController class]] ? (UINavigationController *)sourceViewController : sourceViewController.navigationController;
         if (nav) {
             [nav pushViewController:vc animated:animated];
             if (completion) {
