@@ -1,12 +1,20 @@
 PODS:
+  - JJURLRouter (0.0.1):
+    - YYModel (= 1.0.4)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - JJURLRouter (from `./`)
   - YYModel (= 1.0.4)
 
+EXTERNAL SOURCES:
+  JJURLRouter:
+    :path: ./
+
 SPEC CHECKSUMS:
+  JJURLRouter: 405f7f84d2d53703f3ed0f2a8304ed756b5c2cf1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 31167ac94f76f93a300f35df87c74197fae1e402
+PODFILE CHECKSUM: 794e9d7d7fc96f1e985dc65426b0cbfe8eb09e99
 
 COCOAPODS: 1.3.1

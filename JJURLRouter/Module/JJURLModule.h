@@ -1,9 +1,9 @@
 //
 //  JJURLModule.h
-//  JJ_iOS_UrlRouterService
+//  
 //
-//  Created by paux on 2017/10/17.
-//  Copyright © 2017年 apple. All rights reserved.
+//  Created by JJ on 2017/10/17.
+//  Copyright © 2017年 JJ. All rights reserved.
 //
 
 #import "JJURLHandler.h"

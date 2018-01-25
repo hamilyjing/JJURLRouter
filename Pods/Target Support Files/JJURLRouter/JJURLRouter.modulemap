@@ -1,0 +1,6 @@
+framework module JJURLRouter {
+  umbrella header "JJURLRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,7 +10,7 @@
 		80895156A29F63B5371B68FE /* Pods_JJURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3FCBFDF734805391AE05E3 /* Pods_JJURLRouter.framework */; };
 		ABA45E0420188AD800350408 /* JJURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA45DFA20188AD800350408 /* JJURLRouter.framework */; };
 		ABA45E0920188AD800350408 /* JJURLRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E0820188AD800350408 /* JJURLRouterTests.m */; };
-		ABA45E0B20188AD800350408 /* JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45DFD20188AD800350408 /* JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA45E0B20188AD800350408 /* JJURLRouterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45DFD20188AD800350408 /* JJURLRouterHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABA45E3C20188B9800350408 /* JJURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E1520188B9800350408 /* JJURLHandler.m */; };
 		ABA45E3D20188B9800350408 /* JJURLHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1620188B9800350408 /* JJURLHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABA45E3E20188B9800350408 /* JJURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E1820188B9800350408 /* JJURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +43,10 @@
 		ABA45E5920188B9800350408 /* JJURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA45E3A20188B9800350408 /* JJURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABA45E5A20188B9800350408 /* JJURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA45E3B20188B9800350408 /* JJURLManager.m */; };
 		ABA45E5C20188E1400350408 /* JJURLConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA45E5B20188E1400350408 /* JJURLConfiguration.plist */; };
+		ABD6C3092019B32400782889 /* JJURLBackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD6C3052019B32300782889 /* JJURLBackHandler.m */; };
+		ABD6C30A2019B32400782889 /* JJURLCommonURIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD6C3062019B32300782889 /* JJURLCommonURIHandler.m */; };
+		ABD6C30B2019B32400782889 /* JJURLCommonURIHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD6C3072019B32400782889 /* JJURLCommonURIHandler.h */; };
+		ABD6C30C2019B32400782889 /* JJURLBackHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD6C3082019B32400782889 /* JJURLBackHandler.h */; };
 		BD875813438A59468CB9BB48 /* Pods_JJURLRouterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DC24BF0A09A5241BDE6AA9 /* Pods_JJURLRouterTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +64,7 @@
 		430A0649191FF62691A74A19 /* Pods-JJURLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouter/Pods-JJURLRouter.debug.xcconfig"; sourceTree = "<group>"; };
 		7DAA0E5A8C9D5BCFF1996ED6 /* Pods-JJURLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouter/Pods-JJURLRouter.release.xcconfig"; sourceTree = "<group>"; };
 		ABA45DFA20188AD800350408 /* JJURLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA45DFD20188AD800350408 /* JJURLRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJURLRouter.h; sourceTree = "<group>"; };
+		ABA45DFD20188AD800350408 /* JJURLRouterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJURLRouterHeader.h; sourceTree = "<group>"; };
 		ABA45DFE20188AD800350408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA45E0320188AD800350408 /* JJURLRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJURLRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA45E0820188AD800350408 /* JJURLRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJURLRouterTests.m; sourceTree = "<group>"; };
@@ -97,6 +101,10 @@
 		ABA45E3A20188B9800350408 /* JJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLRouter.h; sourceTree = "<group>"; };
 		ABA45E3B20188B9800350408 /* JJURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLManager.m; sourceTree = "<group>"; };
 		ABA45E5B20188E1400350408 /* JJURLConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JJURLConfiguration.plist; sourceTree = "<group>"; };
+		ABD6C3052019B32300782889 /* JJURLBackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLBackHandler.m; sourceTree = "<group>"; };
+		ABD6C3062019B32300782889 /* JJURLCommonURIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJURLCommonURIHandler.m; sourceTree = "<group>"; };
+		ABD6C3072019B32400782889 /* JJURLCommonURIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLCommonURIHandler.h; sourceTree = "<group>"; };
+		ABD6C3082019B32400782889 /* JJURLBackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJURLBackHandler.h; sourceTree = "<group>"; };
 		EBD9E856798FC90C9C247082 /* Pods-JJURLRouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5DC24BF0A09A5241BDE6AA9 /* Pods_JJURLRouterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJURLRouterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD84DB5012B7A248F15D7A7E /* Pods-JJURLRouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJURLRouterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJURLRouterTests/Pods-JJURLRouterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,7 +181,7 @@
 				ABA45E1420188B9800350408 /* Handler */,
 				ABA45DFE20188AD800350408 /* Info.plist */,
 				ABA45E3220188B9800350408 /* Interceptor */,
-				ABA45DFD20188AD800350408 /* JJURLRouter.h */,
+				ABA45DFD20188AD800350408 /* JJURLRouterHeader.h */,
 				ABA45E2E20188B9800350408 /* Log */,
 				ABA45E3720188B9800350408 /* Manager */,
 				ABA45E2420188B9800350408 /* Module */,
@@ -195,6 +203,10 @@
 		ABA45E1420188B9800350408 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				ABD6C3082019B32400782889 /* JJURLBackHandler.h */,
+				ABD6C3052019B32300782889 /* JJURLBackHandler.m */,
+				ABD6C3072019B32400782889 /* JJURLCommonURIHandler.h */,
+				ABD6C3062019B32300782889 /* JJURLCommonURIHandler.m */,
 				ABA45E1620188B9800350408 /* JJURLHandler.h */,
 				ABA45E1520188B9800350408 /* JJURLHandler.m */,
 			);
@@ -294,10 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA45E4D20188B9800350408 /* JJURLModule.h in Headers */,
-				ABA45E0B20188AD800350408 /* JJURLRouter.h in Headers */,
+				ABA45E0B20188AD800350408 /* JJURLRouterHeader.h in Headers */,
 				ABA45E4820188B9800350408 /* JJURLResult.h in Headers */,
 				ABA45E5920188B9800350408 /* JJURLRouter.h in Headers */,
 				ABA45E4E20188B9800350408 /* JJURLModuleProtocol.h in Headers */,
+				ABD6C30B2019B32400782889 /* JJURLCommonURIHandler.h in Headers */,
+				ABD6C30C2019B32400782889 /* JJURLBackHandler.h in Headers */,
 				ABA45E3D20188B9800350408 /* JJURLHandler.h in Headers */,
 				ABA45E4F20188B9800350408 /* JJURLInput.h in Headers */,
 				ABA45E5420188B9800350408 /* JJURLConfigurableInterceptor.h in Headers */,
@@ -505,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD6C30A2019B32400782889 /* JJURLCommonURIHandler.m in Sources */,
 				ABA45E3C20188B9800350408 /* JJURLHandler.m in Sources */,
 				ABA45E3F20188B9800350408 /* JJURLContext.m in Sources */,
 				ABA45E4620188B9800350408 /* JJURLError.m in Sources */,
@@ -516,6 +531,7 @@
 				ABA45E4220188B9800350408 /* UIViewController+JJURLRouter.m in Sources */,
 				ABA45E5720188B9800350408 /* JJURLRouter.m in Sources */,
 				ABA45E4520188B9800350408 /* NSError+JJURLRouter.m in Sources */,
+				ABD6C3092019B32400782889 /* JJURLBackHandler.m in Sources */,
 				ABA45E4C20188B9800350408 /* JJURLResult.m in Sources */,
 				ABA45E4A20188B9800350408 /* JJURLInput.m in Sources */,
 				ABA45E4320188B9800350408 /* NSBundle+JJURLRouter.m in Sources */,

@@ -1,3 +1,5 @@
+workspace 'JJURLRouter.xcworkspace'
+
 platform :ios, '8.0'
 use_frameworks!
 
@@ -13,4 +15,9 @@ end
 target 'JJURLRouterTests' do
     project 'JJURLRouter.xcodeproj'
     shared_pods
+end
+
+target 'Demo' do
+    project 'Demo/Demo.xcodeproj'
+    pod 'JJURLRouter', :path => './'
 end

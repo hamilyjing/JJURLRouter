@@ -1,5 +1,5 @@
 
-projectName='JJURLRouter'
+projectName='JJURLRouterHeader'
 headerPath=./${projectName}.h
 tempHeaderPath=${projectName}.h.temp
 searchPath=./

@@ -1,9 +1,9 @@
 //
 //  JJURLModule.m
-//  JJ_iOS_UrlRouterService
+//  
 //
-//  Created by paux on 2017/10/17.
-//  Copyright © 2017年 apple. All rights reserved.
+//  Created by JJ on 2017/10/17.
+//  Copyright © 2017年 JJ. All rights reserved.
 //
 
 #import "JJURLModule.h"
@@ -14,17 +14,17 @@
 @implementation JJURLModule
 
 + (void)load {
-    Protocol *moduleProtocol = [self JJ_moduleProtocol];
+    Protocol *moduleProtocol = [self jj_moduleProtocol];
     if (moduleProtocol) {
         [[JJURLManager sharedInstance] registerProtocolClass:[self class] protocol:moduleProtocol];
     }
 }
 
-+ (Protocol *)JJ_moduleProtocol {
++ (Protocol *)jj_moduleProtocol {
     return nil;
 }
 
-- (NSString *)JJ_bundleName {
+- (NSString *)jj_bundleName {
     return nil;
 }
 
@@ -32,7 +32,7 @@
     if (self.configList.count != 0) {
         return self.configList[@"handlers"];
     }
-    NSString *bundleName = [self JJ_bundleName];
+    NSString *bundleName = [self jj_bundleName];
     if (bundleName.length != 0) {
         NSString *url = [NSBundle jjurl_filePathWithClass:self.class bundleName:bundleName fileName:@"JJURLConfiguration" fileType:@"plist"];
         if (url.length != 0) {
@@ -52,7 +52,7 @@
     if (self.configList.count != 0) {
         return self.configList[@"interceptors"];
     }
-    NSString *bundleName = [self JJ_bundleName];
+    NSString *bundleName = [self jj_bundleName];
     if (bundleName.length != 0) {
         NSString *url = [NSBundle jjurl_filePathWithClass:self.class bundleName:bundleName fileName:@"JJURLConfiguration" fileType:@"plist"];
         if (url.length != 0) {
